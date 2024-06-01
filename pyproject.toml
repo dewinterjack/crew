@@ -6,8 +6,8 @@ authors = ["Jack Dewinter <jackdewinter1@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-crewai = "^0.30.11"
+python = ">=3.11,<=3.13"
+crewai = {extras = ["tools"], version = "^0.30.11"}
 
 [tool.poetry.group.dev.dependencies]
 python-dotenv = "^1.0.1"
